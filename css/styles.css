@@ -151,13 +151,17 @@ input {
 	flex-direction: column;
 	background-color: white;
 	width: 20vw;
-	height: 16.3vh;
+	height: 20vh;
 	align-items: flex-start;
 	padding: 1rem;
 	border-radius: 5px;
 	border-left: 5px solid #0e7490;
 	gap: 1rem;
 	overflow: hidden;
+}
+
+.card:hover {
+	box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .cardContainer {
@@ -181,11 +185,16 @@ input {
 }
 .announce {
 	background-color: white;
-	width: 12vw;
-	padding: 1.5vw 1vw;
+	width: 15vw;
+	height: 13vw;
+	padding: 1vw;
 	border-radius: 5px;
 	border-left: 5px solid #831843;
 	overflow: hidden;
+}
+
+.announce:hover {
+	box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .nounce {
