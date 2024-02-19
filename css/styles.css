@@ -198,7 +198,7 @@ input {
 }
 
 .nounce {
-	font-size: smaller;
+	font-size: 12px;
 }
 
 .sections {
@@ -239,4 +239,8 @@ button:active {
 .cardOptions {
 	display: flex;
 	gap: 1.5rem;
+}
+
+.card > p {
+	font-size: 1rem;
 }
